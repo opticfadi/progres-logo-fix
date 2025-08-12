@@ -19,7 +19,7 @@ mitmproxy addon that automatically captures the `etablissementId` from `/dias` A
 
 ## Usage
 ```bash
-mitmproxy -s auto_fix_logo_request.py
+mitmproxy -s fix_logo_progres.py
 - Run the app while your device is proxied through mitmproxy.
 - The addon will log when it captures the ID
 - Requests to /logoEtablissement/undefined will be rewritten automatically
